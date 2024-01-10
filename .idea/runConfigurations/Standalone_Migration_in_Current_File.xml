@@ -1,0 +1,13 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Standalone Migration in Current File" type="js.build_tools.npm">
+    <package-json value="$PROJECT_DIR$/package.json" />
+    <command value="run" />
+    <scripts>
+      <script value="ng" />
+    </scripts>
+    <arguments value="-- g @angular/core:standalone --path $FilePathRelativeToProjectRoot$ --interactive " />
+    <node-interpreter value="project" />
+    <envs />
+    <method v="2" />
+  </configuration>
+</component>
